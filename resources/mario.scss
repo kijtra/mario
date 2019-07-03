@@ -90,16 +90,6 @@ $xpos: (
     animation-iteration-count: 2;
   }
 
-
-
-  // &.luigi {
-  //   background-image: url("luigi.svg");
-  // }
-
-  // &.fire {
-  //   background-image: url("fire.svg");
-  // }
-
   @each $name, $values in $colors {
     @if $name == "mario" {
       @include mario-svg(map-get($values, "o"), map-get($values, "u"), map-get($values, "s"));

@@ -1,11 +1,9 @@
 const mix = require('laravel-mix');
 
-/*****************************************************************
- * 初期設定
- */
+Mix.manifest.refresh = _ => void 0;
 
 mix
-  .sourceMaps('./')
+  .setPublicPath('./')
   .options({
     processCssUrls: false,
     postCss: [
@@ -13,4 +11,4 @@ mix
       require('css-mqpacker')()
     ]
   })
-  .sass('mario.scss', 'mario.css');
+  .sass('resources/mario.scss', 'mario.css');
