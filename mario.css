@@ -1,0 +1,246 @@
+@-webkit-keyframes mario-mini-run {
+  0% {
+    background-position: -16px 0;
+  }
+  25% {
+    background-position: -16px -32px;
+  }
+  50% {
+    background-position: -16px -64px;
+  }
+  75% {
+    background-position: -16px -32px;
+  }
+  100% {
+    background-position: -16px 0;
+  }
+}
+@keyframes mario-mini-run {
+  0% {
+    background-position: -16px 0;
+  }
+  25% {
+    background-position: -16px -32px;
+  }
+  50% {
+    background-position: -16px -64px;
+  }
+  75% {
+    background-position: -16px -32px;
+  }
+  100% {
+    background-position: -16px 0;
+  }
+}
+@-webkit-keyframes mario-mini-jump {
+  0% {
+    background-position: -0 -32px;
+    top: 0;
+  }
+  100% {
+    background-position: -0 -32px;
+    top: -16px;
+  }
+}
+@keyframes mario-mini-jump {
+  0% {
+    background-position: -0 -32px;
+    top: 0;
+  }
+  100% {
+    background-position: -0 -32px;
+    top: -16px;
+  }
+}
+@-webkit-keyframes mario-big-run {
+  0% {
+    background-position: -48px 0;
+  }
+  25% {
+    background-position: -48px -32px;
+  }
+  50% {
+    background-position: -48px -64px;
+  }
+  75% {
+    background-position: -48px -32px;
+  }
+  100% {
+    background-position: -48px 0;
+  }
+}
+@keyframes mario-big-run {
+  0% {
+    background-position: -48px 0;
+  }
+  25% {
+    background-position: -48px -32px;
+  }
+  50% {
+    background-position: -48px -64px;
+  }
+  75% {
+    background-position: -48px -32px;
+  }
+  100% {
+    background-position: -48px 0;
+  }
+}
+@-webkit-keyframes mario-big-jump {
+  0% {
+    background-position: -32px -32px;
+    top: 0;
+  }
+  100% {
+    background-position: -32px -32px;
+    top: -16px;
+  }
+}
+@keyframes mario-big-jump {
+  0% {
+    background-position: -32px -32px;
+    top: 0;
+  }
+  100% {
+    background-position: -32px -32px;
+    top: -16px;
+  }
+}
+@-webkit-keyframes mario-fire-run {
+  0% {
+    background-position: -48px 0;
+  }
+  25% {
+    background-position: -48px -32px;
+  }
+  50% {
+    background-position: -48px -64px;
+  }
+  75% {
+    background-position: -48px -32px;
+  }
+  100% {
+    background-position: -48px 0;
+  }
+}
+@keyframes mario-fire-run {
+  0% {
+    background-position: -48px 0;
+  }
+  25% {
+    background-position: -48px -32px;
+  }
+  50% {
+    background-position: -48px -64px;
+  }
+  75% {
+    background-position: -48px -32px;
+  }
+  100% {
+    background-position: -48px 0;
+  }
+}
+@-webkit-keyframes mario-fire-jump {
+  0% {
+    background-position: -32px -32px;
+    top: 0;
+  }
+  100% {
+    background-position: -32px -32px;
+    top: -16px;
+  }
+}
+@keyframes mario-fire-jump {
+  0% {
+    background-position: -32px -32px;
+    top: 0;
+  }
+  100% {
+    background-position: -32px -32px;
+    top: -16px;
+  }
+}
+.mario {
+  width: 16px;
+  height: 32px;
+  display: block;
+  position: relative;
+  top: 0;
+  left: 0;
+  background-repeat: no-repeat;
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2264%22%20height%3D%2296%22%3E%3Cstyle%3E.o%7Bfill%3A%23F83700%7D.u%7Bfill%3A%23AE7E00%7D.s%7Bfill%3A%23FFA246%7D%3C%2Fstyle%3E%3Cpath%20class%3D%22o%22%20fill-rule%3D%22evenodd%22%20d%3D%22M5%2018v1H4v1h9v-1h-3v-1H5zm1%207v1H5v2H4v2h3v-1h2v1h3v-2h-1v-2h-1v-1H9v1H7v-1H6zm0%201h1v1H6v-1zm3%200h1v1H9v-1z%22%20clip-rule%3D%22evenodd%22%2F%3E%3Cpath%20class%3D%22s%22%20fill-rule%3D%22evenodd%22%20d%3D%22M10%2020v2H9v-2H7v1H6v1h1v1H5v2h7v-1H9v-1h1v-1h1v1h3v-1h-1v-1h-2v-1h-1zm-4%206v1h1v-1H6zm3%200v1h1v-1H9zm-7%201v2h2v-1h1v-1H2zm9%200v1h1v1h2v-2h-3zm-7-6v2h1v-2H4z%22%20clip-rule%3D%22evenodd%22%2F%3E%3Cpath%20class%3D%22u%22%20fill-rule%3D%22evenodd%22%20d%3D%22M3%2021v3h2v-1h2v-1H6v-1h1v-1H4v1H3zm2%202H4v-2h1v2zm4-3v2h1v1H9v1h4v-1h-2v-1h-1v-2H9zm-7%206v1h3v-1h1v-1H3v1H2zm5-1v1h2v-1H7zm3%200v1h1v1h3v-1h-1v-1h-3zm-8%206v1h5v-2H3v1H2zm7-1v2h5v-1h-1v-1H9zM19%2021v3h2v-1h2v-1h-1v-1h1v-1h-3v1h-1zm2%202h-1v-2h1v2zm4-3v2h1v1h-1v1h4v-1h-2v-1h-1v-2h-1zm-7%205v1h1v1h-1v1h1v-1h2v-1h1v-1h-4zm7%200v1h2v1h1v3h2v-4h-1v1h-1v-2h-3zm-7%204v2h1v1h3v-1h-1v-1h-2v-1h-1z%22%20clip-rule%3D%22evenodd%22%2F%3E%3Cpath%20class%3D%22o%22%20fill-rule%3D%22evenodd%22%20d%3D%22M21%2018v1h-1v1h9v-1h-3v-1h-5zm1%207v1h-1v1h-2v1h-1v1h1v1h3v-1h3v1h3v-3h-1v-1h-2v-1h-3zm1%201h1v1h-1v-1z%22%20clip-rule%3D%22evenodd%22%2F%3E%3Cpath%20class%3D%22s%22%20fill-rule%3D%22evenodd%22%20d%3D%22M26%2020v2h-1v-2h-2v1h-1v1h1v1h-2v-2h-1v2h1v2h7v-1h-3v-1h1v-1h1v1h3v-1h-1v-1h-2v-1h-1zm-10%205v3h2v-1h1v-1h-1v-1h-2zm7%201v1h1v-1h-1zm5-1v2h1v-1h1v1h1v-2h-3z%22%20clip-rule%3D%22evenodd%22%2F%3E%3Cpath%20class%3D%22u%22%20fill-rule%3D%22evenodd%22%20d%3D%22M19%2053v3h2v-1h2v-1h-1v-1h1v-1h-3v1h-1zm2%202h-1v-2h1v2zm4-3v2h1v1h-1v1h4v-1h-2v-1h-1v-2h-1zM19%2057v3h1v1h1v-2h1v-1h1v-1h-4zm6%200v1h2v-1h-2zm-4%205v2h4v-1h3v-1h-1v-1h-3v1h-3z%22%20clip-rule%3D%22evenodd%22%2F%3E%3Cpath%20class%3D%22s%22%20fill-rule%3D%22evenodd%22%20d%3D%22M26%2052v2h-1v-2h-2v1h-1v1h1v1h-2v-2h-1v2h1v2h7v-1h-3v-1h1v-1h1v1h3v-1h-1v-1h-2v-1h-1zm-5%207v2h2v-1h1v-1h1v-1h-1v1h-3zm6-1v1h1v-1h-1z%22%20clip-rule%3D%22evenodd%22%2F%3E%3Cpath%20class%3D%22u%22%20fill-rule%3D%22evenodd%22%20d%3D%22M19%2086v3h2v-1h2v-1h-1v-1h1v-1h-3v1h-1zm2%202h-1v-2h1v2zm4-3v2h1v1h-1v1h4v-1h-2v-1h-1v-2h-1zm-5%205v1h1v1h2v1h3v-3h-1v1h-1v-1h-4zm2%204v2h4v-1h-1v-1h-3zm-5-1v2h1v-1h1v-2h-1v1h-1z%22%20clip-rule%3D%22evenodd%22%2F%3E%3Cpath%20class%3D%22s%22%20fill-rule%3D%22evenodd%22%20d%3D%22M26%2085v2h-1v-2h-2v1h-1v1h1v1h-2v-2h-1v2h1v2h6v1h-1v2h2v-1h1v-1h-1v-2h-3v-1h1v-1h1v1h3v-1h-1v-1h-2v-1h-1zm-8%206v1h2v-2h-1v1h-1z%22%20clip-rule%3D%22evenodd%22%2F%3E%3Cpath%20class%3D%22o%22%20fill-rule%3D%22evenodd%22%20d%3D%22M21%2083v1h-1v1h9v-1h-3v-1h-5zm-2%209v2h3v-1h1v1h3v-1h-3v-1h-2v-1h-1v1h-1zm5-2v1h1v-1h-1z%22%20clip-rule%3D%22evenodd%22%2F%3E%3Cpath%20class%3D%22s%22%20fill-rule%3D%22evenodd%22%20d%3D%22M11%2052v2h-1v-2H8v1H7v1h1v1H6v-2H5v2h1v2h7v-1h-3v-1h1v-1h1v1h3v-1h-1v-1h-2v-1h-1zM0%2057v2h1v1h1v-1h1v-1H2v-1H0zm9%201v1h1v-1H9zm3%200v1h1v-1h-1zm1-9v2h1v1h2v-3h-3z%22%20clip-rule%3D%22evenodd%22%2F%3E%3Cpath%20class%3D%22u%22%20fill-rule%3D%22evenodd%22%20d%3D%22M4%2053v3H1v1h1v1h5v1h1v-1h1v-1H6v-2h2v-1H7v-1h1v-1H5v1H4zm2%202H5v-2h1v2zm4-3v2h1v1h-1v1h3v1h1v-1h1v2h-1v3h2v-5h-1v-1h1v-3h-3v1h1v1h1v1h-3v-1h-1v-2h-1zm0%205v1h2v-1h-2zm-9%204v2h1v-1h2v-1h1v-1H4v-1H3v1H2v1H1z%22%20clip-rule%3D%22evenodd%22%2F%3E%3Cpath%20class%3D%22o%22%20fill-rule%3D%22evenodd%22%20d%3D%22M6%2050v1H5v1h9v-1h-3v-1H6zm-2%208v2h1v1H4v2h4v-1h3v-1h3v-3h-1v-1h-1v1h-2v-1H9v1H8v1H7v-1H4zm9%201h-1v-1h1v1zm-3%200H9v-1h1v1z%22%20clip-rule%3D%22evenodd%22%2F%3E%3Cpath%20class%3D%22u%22%20fill-rule%3D%22evenodd%22%20d%3D%22M33%2012v2h2v1h2v-1h-1v-1h-1v-3h2v2h2v-1h-1V9h-3v1h-1v2h-1zm7-3v2h2v-1h-1V9h-1zm0%204v1h6v-1h-3v-1h-1v1h-2zm-4%203v1h-1v1h-1v1h-1v1h-1v2h4v-3h1v-3h-1zm2%200v4h4v-4h-4zm5%200v3h1v3h4v-2h-1v-1h-1v-1h-1v-1h-1v-1h-1zm-9%2012v2h-2v2h6v-4h-4zm8%200v4h6v-2h-2v-2h-4z%22%20clip-rule%3D%22evenodd%22%2F%3E%3Cpath%20class%3D%22o%22%20fill-rule%3D%22evenodd%22%20d%3D%22M35%208v1h11V8h-5V7h2V6h-5v1h-2v1h-1zm2%208v3h-1v5h-1v1h-1v1h-1v2h5v-1h1v-1h2v1h1v1h5v-2h-1v-1h-1v-1h-1v-5h-1v-3h-1v4h-4v-4h-1zm0%205h1v1h-1v-1zm5%200h1v1h-1v-1z%22%20clip-rule%3D%22evenodd%22%2F%3E%3Cpath%20class%3D%22s%22%20fill-rule%3D%22evenodd%22%20d%3D%22M41%207v1h2V7h-2zm-3%202v2h1v1h-2v-2h-2v3h1v1h1v1h-1v1h7v-1h3v-1h-6v-1h2v-1h1v1h4v-2h-1v-1h-2V9h-3v1h1v1h-2V9h-2zm-6%2013v2h1v1h2v-1h1v-2h-4zm12%200v2h1v1h2v-1h1v-2h-4zm-7-1v1h1v-1h-1zm5%200v1h1v-1h-1zM38%2043v2h1v1h-2v-2h-2v3h1v1h1v1h-1v1h7v-1h3v-1h-6v-1h2v-1h1v1h4v-2h-1v-1h-2v-1h-3v1h1v1h-2v-2h-2zm-5%2013v1h2v-1h1v-1h1v-2h-1v-1h-2v1h-1v1h-1v2h1zm1%200h-1v-1h1v1zm7-15v1h2v-1h3v-1h1v1h1v-2h-1v-1h-3v1h-1v2h-2zm4-1v-1h1v1h-1zm-4%2013v1h1v-1h-1z%22%20clip-rule%3D%22evenodd%22%2F%3E%3Cpath%20class%3D%22u%22%20fill-rule%3D%22evenodd%22%20d%3D%22M33%2046v2h2v1h2v-1h-1v-1h-1v-3h2v2h2v-1h-1v-2h-3v1h-1v2h-1zm7-3v2h2v-1h-1v-1h-1zm0%204v1h6v1h-3v2h-1v-1h-1v1h1v1h1v1h2v-2h1v-1h1v-3h1v-6h-1v-1h-1v-1h-1v1h1v1h-3v1h3v1h-2v1h2v1h1v2h-4v-1h-1v1h-2zm-7%203v1h-1v3h1v-1h1v-1h2v1h1v1h1v-1h1v-1h1v-1h-1v-1h-6zm0%205v1h1v-1h-1zm-1%203v6h1v-1h1v-1h1v-4h1v1h2v1h2v-1h-2v-1h-2v-1h-1v1h-3zm12-1v4h4v-6h-1v1h-1v1h-2z%22%20clip-rule%3D%22evenodd%22%2F%3E%3Cpath%20class%3D%22o%22%20fill-rule%3D%22evenodd%22%20d%3D%22M35%2042v1h11v-1h-5v-1h2v-1h-5v1h-2v1h-1zm4%208v1h1v1h-1v1h-1v1h-1v1h-1v1h-1v1h1v1h2v1h2v1h2v1h2v-4h1v-4h-2v-1h-1v-1h1v-1h-1v1h-1v-1h-2zm2%203h1v1h-1v-1zm-6%205v4h3v-1h1v-1h-1v-1h-2v-1h-1zM51%209v1h11V9h-5V8h2V7h-5v1h-2v1h-1zm9%208h-1v2h1v1h1v-1h-1v-2zm-9-1v1h1v-1h-1zm3%201v1h1v1h-1v1h-1v1h-1v1h1v1h-1v1h1v1h-2v2h1v1h1v1h1v-1h2v-1h3v-2h2v-4h-2v-1h-1v-2h-1v-1h-3zm-1%208h1v1h-1v-1zm1%201h2v1h-2v-1zm3-6h1v1h-1v-1z%22%20clip-rule%3D%22evenodd%22%2F%3E%3Cpath%20class%3D%22s%22%20fill-rule%3D%22evenodd%22%20d%3D%22M57%208v1h2V8h-2zm-9%2014v2h1v1h3v-2h1v-1h-5zm9-2v1h1v-1h-1zm3%200v1h1v-1h-1zm-6-10v2h1v1h-2v-2h-2v3h1v1h1v1h-1v1h7v-1h3v1h-1v2h1v1h1v-1h1v-2h-1v-1h-1v-1h-6v-1h2v-1h1v1h4v-2h-1v-1h-2v-1h-3v1h1v1h-2v-2h-2z%22%20clip-rule%3D%22evenodd%22%2F%3E%3Cpath%20class%3D%22u%22%20fill-rule%3D%22evenodd%22%20d%3D%22M49%2013v2h2v1h2v-1h-1v-1h-1v-3h2v2h2v-1h-1v-2h-3v1h-1v2h-1zm7-3v2h2v-1h-1v-1h-1zm0%204v1h6v-1h-3v-1h-1v1h-2zm-8%206v2h4v-1h1v-1h1v-1h1v-1h-1v-1h-3v1h-1v1h-1v1h-1zm0%206v3h1v3h4v-1h-1v-2h1v-1h-1v-1h-1v-1h-3zm5-2h-1v1h1v1h1v1h2v-1h-2v-1h-1v-1zm4-7v1h1v2h1v1h1v-2h-1v-2h-2zm2%208v4h5v-6h-1v1h-1v1h-3zm2-6v2h1v1h1v-1h1v-2h-1v1h-1v-1h-1z%22%20clip-rule%3D%22evenodd%22%2F%3E%3Cpath%20class%3D%22o%22%20fill-rule%3D%22evenodd%22%20d%3D%22M52%2041v1h11v-1h-5v-1h2v-1h-5v1h-2v1h-1zm1%209v-2h-1v2h-1v3h-1v3h1v1h1v1h1v1h1v1h3v-1h-2v-2h2v-1h-2v-1h-1v-1h-1v-1h-1v-3h1zm7%201h-1v-1h-1v-1h-3v1h1v2h4v3h-1v2h2v-1h1v-3h-1v-1h-1v-1z%22%20clip-rule%3D%22evenodd%22%2F%3E%3Cpath%20class%3D%22u%22%20fill-rule%3D%22evenodd%22%20d%3D%22M50%2045v2h2v1h2v-1h-1v-1h-1v-3h2v2h2v-1h-1v-2h-3v1h-1v2h-1zm7-3v2h2v-1h-1v-1h-1zm0%204v1h6v-1h-3v-1h-1v1h-2zm-4%203v1h-1v3h1v1h1v1h1v1h1v-3h1v-1h-1v-2h-1v-1h-2zm8%203v-2h-1v-1h-2v1h1v1h1v1h-1v1h1v-1h1zm-4%204v1h-2v2h2v1h-3v-1h-1v2h-1v2h2v1h5v-2h-2v-2h1v1h2v-2h-1v-1h1v-1h-1v-1h-2z%22%20clip-rule%3D%22evenodd%22%2F%3E%3Cpath%20class%3D%22s%22%20fill-rule%3D%22evenodd%22%20d%3D%22M58%2040v1h2v-1h-2zm-3%202v2h1v1h-2v-2h-2v3h1v1h1v1h-1v1h7v-1h3v-1h-6v-1h2v-1h1v1h4v-2h-1v-1h-2v-1h-3v1h1v1h-2v-2h-2zm2%2010v1h-1v3h3v-1h1v-2h-1v-1h-2z%22%20clip-rule%3D%22evenodd%22%2F%3E%3Cpath%20class%3D%22u%22%20fill-rule%3D%22evenodd%22%20d%3D%22M50%2077v2h2v2h-1v1h-1v2h1v-1h1v-2h1v3h1v1h1v1h1v1h3v-1h2v-2h-1v-1h-2v-2h-1v1h-1v-1h-3v-1h1v-1h-1v-1h-1v-3h2v2h2v-1h-1v-2h-3v1h-1v2h-1zm7-3v2h2v-1h-1v-1h-1zm0%204v1h6v-1h-3v-1h-1v1h-2zm-9%2011v6h1v-1h1v-1h2v-4h-4zm9%203v4h6v-2h-2v-2h-4zm1-3v1h-2v1h3v-1h1v-1h1v-1h-1v1h-2z%22%20clip-rule%3D%22evenodd%22%2F%3E%3Cpath%20class%3D%22o%22%20fill-rule%3D%22evenodd%22%20d%3D%22M52%2073v1h11v-1h-5v-1h2v-1h-5v1h-2v1h-1zm0%208v2h-1v6h1v3h3v-1h1v-1h2v1h-1v1h4v-1h1v-2h-2v-1h1v-2h-2v1h-3v-1h-1v-1h-1v-1h-1v-3h-1zm6%209v-1h2c-.11%200%200%201%200%201h-2zm-2-9v1h1v-1h-1zm2%201v1h2v-1h-2z%22%20clip-rule%3D%22evenodd%22%2F%3E%3Cpath%20class%3D%22s%22%20fill-rule%3D%22evenodd%22%20d%3D%22M58%2072v1h2v-1h-2zm-3%202v2h1v1h-2v-2h-2v3h1v1h1v1h-1v1h7v-1h3v-1h-6v-1h2v-1h1v1h4v-2h-1v-1h-2v-1h-3v1h1v1h-2v-2h-2zm5%208v2h1v2h3v-3h-2v-1h-2z%22%20clip-rule%3D%22evenodd%22%2F%3E%3Cpath%20class%3D%22u%22%20fill-rule%3D%22evenodd%22%20d%3D%22M34%2086h-1v1h-1v4h1v1h1v-1h1v-1h2v-1h-1v-2h2v-1h-1v-1h-1v-3h2v2h2v-1h-1v-2h-3v1h-1v1h-1v3zm7-5v2h2v-1h-1v-1h-1zm0%204v1h6v-1h-3v-1h-1v1h-2zm2%203h-5v1h5v1h2v1h1v1h1v-1h1v-2h-1v-1h-2v1h-2v-1zm-7%205v1h-2v1h-2v1h6v-2h-1v-1h-1zm7%200v1h-1v2h6v-1h-2v-1h-2v-1h-1z%22%20clip-rule%3D%22evenodd%22%2F%3E%3Cpath%20class%3D%22o%22%20fill-rule%3D%22evenodd%22%20d%3D%22M36%2080v1h11v-1h-5v-1h2v-1h-5v1h-2v1h-1zm1%207h-1v2h1v1h1v2h-1v1h6v-1h-1v-2h1v-1h2v-1h2v-1h-3v1h-1v1h-6v-2zm-5%204v2h1v-2h-1zm15%200v2h1v-2h-1z%22%20clip-rule%3D%22evenodd%22%2F%3E%3Cpath%20class%3D%22s%22%20fill-rule%3D%22evenodd%22%20d%3D%22M42%2079v1h2v-1h-2zm-3%202v2h1v1h-2v-2h-2v3h1v1h1v1h-1v2h1v-1h6v-1h3v-1h-6v-1h2v-1h1v1h4v-2h-1v-1h-2v-1h-3v1h1v1h-2v-2h-2zm3%209v2h1v1h1v1h2v-1h1v-1h-1v-1h-1v-1h-3zm-7%200v1h-1v1h-1v1h1v1h2v-1h1v-1h1v-2h-3z%22%20clip-rule%3D%22evenodd%22%2F%3E%3Cpath%20class%3D%22o%22%20fill-rule%3D%22evenodd%22%20d%3D%22M21%2050v1h-1v1h9v-1h-3v-1h-5zm4%207h-2v1h-1v1h2v-1h1v1h-1v1h-1v1h-3v-1h-1v1h1v1h4v-1h4v-2h-1v-1h-2v-1zM5%2082v1H4v1h9v-1h-3v-1H5zm1%207v1H5v2H4v2h3v-1h2v1h3v-2h-1v-2h-1v-1H9v1H7v-1H6zm0%201h1v1H6v-1zm3%200h1v1H9v-1z%22%20clip-rule%3D%22evenodd%22%2F%3E%3Cpath%20class%3D%22s%22%20fill-rule%3D%22evenodd%22%20d%3D%22M10%2084v2H9v-2H7v1H6v1h1v1H5v2h7v-1H9v-1h1v-1h1v1h3v-1h-1v-1h-2v-1h-1zm-4%206v1h1v-1H6zm3%200v1h1v-1H9zm-7%201v2h2v-1h1v-1H2zm9%200v1h1v1h2v-2h-3zm-7-6v2h1v-2H4z%22%20clip-rule%3D%22evenodd%22%2F%3E%3Cpath%20class%3D%22u%22%20fill-rule%3D%22evenodd%22%20d%3D%22M3%2085v3h2v-1h2v-1H6v-1h1v-1H4v1H3zm2%202H4v-2h1v2zm4-3v2h1v1H9v1h4v-1h-2v-1h-1v-2H9zm-7%206v1h3v-1h1v-1H3v1H2zm5-1v1h2v-1H7zm3%200v1h1v1h3v-1h-1v-1h-3zm-8%206v1h5v-2H3v1H2zm7-1v2h5v-1h-1v-1H9z%22%20clip-rule%3D%22evenodd%22%2F%3E%3C%2Fsvg%3E");
+}
+.mario.left {
+  -webkit-transform: scaleX(-1);
+      -ms-transform: scaleX(-1);
+          transform: scaleX(-1);
+}
+.mario.run {
+  -webkit-animation-name: mario-run;
+          animation-name: mario-run;
+  -webkit-animation-duration: 0.25s;
+          animation-duration: 0.25s;
+  -webkit-animation-timing-function: step-start;
+          animation-timing-function: step-start;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+}
+.mario.jump {
+  -webkit-animation-name: mario-jump;
+          animation-name: mario-jump;
+  -webkit-animation-duration: 0.3s;
+          animation-duration: 0.3s;
+  -webkit-animation-direction: alternate;
+          animation-direction: alternate;
+  -webkit-animation-timing-function: ease-out;
+          animation-timing-function: ease-out;
+  -webkit-animation-fill-mode: none;
+          animation-fill-mode: none;
+  -webkit-animation-iteration-count: 2;
+          animation-iteration-count: 2;
+}
+.mario.luigi {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2264%22%20height%3D%2296%22%3E%3Cstyle%3E.o%7Bfill%3A%23FFF%7D.u%7Bfill%3A%2300B800%7D.s%7Bfill%3A%23FFA347%7D%3C%2Fstyle%3E%3Cpath%20class%3D%22o%22%20fill-rule%3D%22evenodd%22%20d%3D%22M5%2018v1H4v1h9v-1h-3v-1H5zm1%207v1H5v2H4v2h3v-1h2v1h3v-2h-1v-2h-1v-1H9v1H7v-1H6zm0%201h1v1H6v-1zm3%200h1v1H9v-1z%22%20clip-rule%3D%22evenodd%22%2F%3E%3Cpath%20class%3D%22s%22%20fill-rule%3D%22evenodd%22%20d%3D%22M10%2020v2H9v-2H7v1H6v1h1v1H5v2h7v-1H9v-1h1v-1h1v1h3v-1h-1v-1h-2v-1h-1zm-4%206v1h1v-1H6zm3%200v1h1v-1H9zm-7%201v2h2v-1h1v-1H2zm9%200v1h1v1h2v-2h-3zm-7-6v2h1v-2H4z%22%20clip-rule%3D%22evenodd%22%2F%3E%3Cpath%20class%3D%22u%22%20fill-rule%3D%22evenodd%22%20d%3D%22M3%2021v3h2v-1h2v-1H6v-1h1v-1H4v1H3zm2%202H4v-2h1v2zm4-3v2h1v1H9v1h4v-1h-2v-1h-1v-2H9zm-7%206v1h3v-1h1v-1H3v1H2zm5-1v1h2v-1H7zm3%200v1h1v1h3v-1h-1v-1h-3zm-8%206v1h5v-2H3v1H2zm7-1v2h5v-1h-1v-1H9zM19%2021v3h2v-1h2v-1h-1v-1h1v-1h-3v1h-1zm2%202h-1v-2h1v2zm4-3v2h1v1h-1v1h4v-1h-2v-1h-1v-2h-1zm-7%205v1h1v1h-1v1h1v-1h2v-1h1v-1h-4zm7%200v1h2v1h1v3h2v-4h-1v1h-1v-2h-3zm-7%204v2h1v1h3v-1h-1v-1h-2v-1h-1z%22%20clip-rule%3D%22evenodd%22%2F%3E%3Cpath%20class%3D%22o%22%20fill-rule%3D%22evenodd%22%20d%3D%22M21%2018v1h-1v1h9v-1h-3v-1h-5zm1%207v1h-1v1h-2v1h-1v1h1v1h3v-1h3v1h3v-3h-1v-1h-2v-1h-3zm1%201h1v1h-1v-1z%22%20clip-rule%3D%22evenodd%22%2F%3E%3Cpath%20class%3D%22s%22%20fill-rule%3D%22evenodd%22%20d%3D%22M26%2020v2h-1v-2h-2v1h-1v1h1v1h-2v-2h-1v2h1v2h7v-1h-3v-1h1v-1h1v1h3v-1h-1v-1h-2v-1h-1zm-10%205v3h2v-1h1v-1h-1v-1h-2zm7%201v1h1v-1h-1zm5-1v2h1v-1h1v1h1v-2h-3z%22%20clip-rule%3D%22evenodd%22%2F%3E%3Cpath%20class%3D%22u%22%20fill-rule%3D%22evenodd%22%20d%3D%22M19%2053v3h2v-1h2v-1h-1v-1h1v-1h-3v1h-1zm2%202h-1v-2h1v2zm4-3v2h1v1h-1v1h4v-1h-2v-1h-1v-2h-1zM19%2057v3h1v1h1v-2h1v-1h1v-1h-4zm6%200v1h2v-1h-2zm-4%205v2h4v-1h3v-1h-1v-1h-3v1h-3z%22%20clip-rule%3D%22evenodd%22%2F%3E%3Cpath%20class%3D%22s%22%20fill-rule%3D%22evenodd%22%20d%3D%22M26%2052v2h-1v-2h-2v1h-1v1h1v1h-2v-2h-1v2h1v2h7v-1h-3v-1h1v-1h1v1h3v-1h-1v-1h-2v-1h-1zm-5%207v2h2v-1h1v-1h1v-1h-1v1h-3zm6-1v1h1v-1h-1z%22%20clip-rule%3D%22evenodd%22%2F%3E%3Cpath%20class%3D%22u%22%20fill-rule%3D%22evenodd%22%20d%3D%22M19%2086v3h2v-1h2v-1h-1v-1h1v-1h-3v1h-1zm2%202h-1v-2h1v2zm4-3v2h1v1h-1v1h4v-1h-2v-1h-1v-2h-1zm-5%205v1h1v1h2v1h3v-3h-1v1h-1v-1h-4zm2%204v2h4v-1h-1v-1h-3zm-5-1v2h1v-1h1v-2h-1v1h-1z%22%20clip-rule%3D%22evenodd%22%2F%3E%3Cpath%20class%3D%22s%22%20fill-rule%3D%22evenodd%22%20d%3D%22M26%2085v2h-1v-2h-2v1h-1v1h1v1h-2v-2h-1v2h1v2h6v1h-1v2h2v-1h1v-1h-1v-2h-3v-1h1v-1h1v1h3v-1h-1v-1h-2v-1h-1zm-8%206v1h2v-2h-1v1h-1z%22%20clip-rule%3D%22evenodd%22%2F%3E%3Cpath%20class%3D%22o%22%20fill-rule%3D%22evenodd%22%20d%3D%22M21%2083v1h-1v1h9v-1h-3v-1h-5zm-2%209v2h3v-1h1v1h3v-1h-3v-1h-2v-1h-1v1h-1zm5-2v1h1v-1h-1z%22%20clip-rule%3D%22evenodd%22%2F%3E%3Cpath%20class%3D%22s%22%20fill-rule%3D%22evenodd%22%20d%3D%22M11%2052v2h-1v-2H8v1H7v1h1v1H6v-2H5v2h1v2h7v-1h-3v-1h1v-1h1v1h3v-1h-1v-1h-2v-1h-1zM0%2057v2h1v1h1v-1h1v-1H2v-1H0zm9%201v1h1v-1H9zm3%200v1h1v-1h-1zm1-9v2h1v1h2v-3h-3z%22%20clip-rule%3D%22evenodd%22%2F%3E%3Cpath%20class%3D%22u%22%20fill-rule%3D%22evenodd%22%20d%3D%22M4%2053v3H1v1h1v1h5v1h1v-1h1v-1H6v-2h2v-1H7v-1h1v-1H5v1H4zm2%202H5v-2h1v2zm4-3v2h1v1h-1v1h3v1h1v-1h1v2h-1v3h2v-5h-1v-1h1v-3h-3v1h1v1h1v1h-3v-1h-1v-2h-1zm0%205v1h2v-1h-2zm-9%204v2h1v-1h2v-1h1v-1H4v-1H3v1H2v1H1z%22%20clip-rule%3D%22evenodd%22%2F%3E%3Cpath%20class%3D%22o%22%20fill-rule%3D%22evenodd%22%20d%3D%22M6%2050v1H5v1h9v-1h-3v-1H6zm-2%208v2h1v1H4v2h4v-1h3v-1h3v-3h-1v-1h-1v1h-2v-1H9v1H8v1H7v-1H4zm9%201h-1v-1h1v1zm-3%200H9v-1h1v1z%22%20clip-rule%3D%22evenodd%22%2F%3E%3Cpath%20class%3D%22u%22%20fill-rule%3D%22evenodd%22%20d%3D%22M33%2012v2h2v1h2v-1h-1v-1h-1v-3h2v2h2v-1h-1V9h-3v1h-1v2h-1zm7-3v2h2v-1h-1V9h-1zm0%204v1h6v-1h-3v-1h-1v1h-2zm-4%203v1h-1v1h-1v1h-1v1h-1v2h4v-3h1v-3h-1zm2%200v4h4v-4h-4zm5%200v3h1v3h4v-2h-1v-1h-1v-1h-1v-1h-1v-1h-1zm-9%2012v2h-2v2h6v-4h-4zm8%200v4h6v-2h-2v-2h-4z%22%20clip-rule%3D%22evenodd%22%2F%3E%3Cpath%20class%3D%22o%22%20fill-rule%3D%22evenodd%22%20d%3D%22M35%208v1h11V8h-5V7h2V6h-5v1h-2v1h-1zm2%208v3h-1v5h-1v1h-1v1h-1v2h5v-1h1v-1h2v1h1v1h5v-2h-1v-1h-1v-1h-1v-5h-1v-3h-1v4h-4v-4h-1zm0%205h1v1h-1v-1zm5%200h1v1h-1v-1z%22%20clip-rule%3D%22evenodd%22%2F%3E%3Cpath%20class%3D%22s%22%20fill-rule%3D%22evenodd%22%20d%3D%22M41%207v1h2V7h-2zm-3%202v2h1v1h-2v-2h-2v3h1v1h1v1h-1v1h7v-1h3v-1h-6v-1h2v-1h1v1h4v-2h-1v-1h-2V9h-3v1h1v1h-2V9h-2zm-6%2013v2h1v1h2v-1h1v-2h-4zm12%200v2h1v1h2v-1h1v-2h-4zm-7-1v1h1v-1h-1zm5%200v1h1v-1h-1zM38%2043v2h1v1h-2v-2h-2v3h1v1h1v1h-1v1h7v-1h3v-1h-6v-1h2v-1h1v1h4v-2h-1v-1h-2v-1h-3v1h1v1h-2v-2h-2zm-5%2013v1h2v-1h1v-1h1v-2h-1v-1h-2v1h-1v1h-1v2h1zm1%200h-1v-1h1v1zm7-15v1h2v-1h3v-1h1v1h1v-2h-1v-1h-3v1h-1v2h-2zm4-1v-1h1v1h-1zm-4%2013v1h1v-1h-1z%22%20clip-rule%3D%22evenodd%22%2F%3E%3Cpath%20class%3D%22u%22%20fill-rule%3D%22evenodd%22%20d%3D%22M33%2046v2h2v1h2v-1h-1v-1h-1v-3h2v2h2v-1h-1v-2h-3v1h-1v2h-1zm7-3v2h2v-1h-1v-1h-1zm0%204v1h6v1h-3v2h-1v-1h-1v1h1v1h1v1h2v-2h1v-1h1v-3h1v-6h-1v-1h-1v-1h-1v1h1v1h-3v1h3v1h-2v1h2v1h1v2h-4v-1h-1v1h-2zm-7%203v1h-1v3h1v-1h1v-1h2v1h1v1h1v-1h1v-1h1v-1h-1v-1h-6zm0%205v1h1v-1h-1zm-1%203v6h1v-1h1v-1h1v-4h1v1h2v1h2v-1h-2v-1h-2v-1h-1v1h-3zm12-1v4h4v-6h-1v1h-1v1h-2z%22%20clip-rule%3D%22evenodd%22%2F%3E%3Cpath%20class%3D%22o%22%20fill-rule%3D%22evenodd%22%20d%3D%22M35%2042v1h11v-1h-5v-1h2v-1h-5v1h-2v1h-1zm4%208v1h1v1h-1v1h-1v1h-1v1h-1v1h-1v1h1v1h2v1h2v1h2v1h2v-4h1v-4h-2v-1h-1v-1h1v-1h-1v1h-1v-1h-2zm2%203h1v1h-1v-1zm-6%205v4h3v-1h1v-1h-1v-1h-2v-1h-1zM51%209v1h11V9h-5V8h2V7h-5v1h-2v1h-1zm9%208h-1v2h1v1h1v-1h-1v-2zm-9-1v1h1v-1h-1zm3%201v1h1v1h-1v1h-1v1h-1v1h1v1h-1v1h1v1h-2v2h1v1h1v1h1v-1h2v-1h3v-2h2v-4h-2v-1h-1v-2h-1v-1h-3zm-1%208h1v1h-1v-1zm1%201h2v1h-2v-1zm3-6h1v1h-1v-1z%22%20clip-rule%3D%22evenodd%22%2F%3E%3Cpath%20class%3D%22s%22%20fill-rule%3D%22evenodd%22%20d%3D%22M57%208v1h2V8h-2zm-9%2014v2h1v1h3v-2h1v-1h-5zm9-2v1h1v-1h-1zm3%200v1h1v-1h-1zm-6-10v2h1v1h-2v-2h-2v3h1v1h1v1h-1v1h7v-1h3v1h-1v2h1v1h1v-1h1v-2h-1v-1h-1v-1h-6v-1h2v-1h1v1h4v-2h-1v-1h-2v-1h-3v1h1v1h-2v-2h-2z%22%20clip-rule%3D%22evenodd%22%2F%3E%3Cpath%20class%3D%22u%22%20fill-rule%3D%22evenodd%22%20d%3D%22M49%2013v2h2v1h2v-1h-1v-1h-1v-3h2v2h2v-1h-1v-2h-3v1h-1v2h-1zm7-3v2h2v-1h-1v-1h-1zm0%204v1h6v-1h-3v-1h-1v1h-2zm-8%206v2h4v-1h1v-1h1v-1h1v-1h-1v-1h-3v1h-1v1h-1v1h-1zm0%206v3h1v3h4v-1h-1v-2h1v-1h-1v-1h-1v-1h-3zm5-2h-1v1h1v1h1v1h2v-1h-2v-1h-1v-1zm4-7v1h1v2h1v1h1v-2h-1v-2h-2zm2%208v4h5v-6h-1v1h-1v1h-3zm2-6v2h1v1h1v-1h1v-2h-1v1h-1v-1h-1z%22%20clip-rule%3D%22evenodd%22%2F%3E%3Cpath%20class%3D%22o%22%20fill-rule%3D%22evenodd%22%20d%3D%22M52%2041v1h11v-1h-5v-1h2v-1h-5v1h-2v1h-1zm1%209v-2h-1v2h-1v3h-1v3h1v1h1v1h1v1h1v1h3v-1h-2v-2h2v-1h-2v-1h-1v-1h-1v-1h-1v-3h1zm7%201h-1v-1h-1v-1h-3v1h1v2h4v3h-1v2h2v-1h1v-3h-1v-1h-1v-1z%22%20clip-rule%3D%22evenodd%22%2F%3E%3Cpath%20class%3D%22u%22%20fill-rule%3D%22evenodd%22%20d%3D%22M50%2045v2h2v1h2v-1h-1v-1h-1v-3h2v2h2v-1h-1v-2h-3v1h-1v2h-1zm7-3v2h2v-1h-1v-1h-1zm0%204v1h6v-1h-3v-1h-1v1h-2zm-4%203v1h-1v3h1v1h1v1h1v1h1v-3h1v-1h-1v-2h-1v-1h-2zm8%203v-2h-1v-1h-2v1h1v1h1v1h-1v1h1v-1h1zm-4%204v1h-2v2h2v1h-3v-1h-1v2h-1v2h2v1h5v-2h-2v-2h1v1h2v-2h-1v-1h1v-1h-1v-1h-2z%22%20clip-rule%3D%22evenodd%22%2F%3E%3Cpath%20class%3D%22s%22%20fill-rule%3D%22evenodd%22%20d%3D%22M58%2040v1h2v-1h-2zm-3%202v2h1v1h-2v-2h-2v3h1v1h1v1h-1v1h7v-1h3v-1h-6v-1h2v-1h1v1h4v-2h-1v-1h-2v-1h-3v1h1v1h-2v-2h-2zm2%2010v1h-1v3h3v-1h1v-2h-1v-1h-2z%22%20clip-rule%3D%22evenodd%22%2F%3E%3Cpath%20class%3D%22u%22%20fill-rule%3D%22evenodd%22%20d%3D%22M50%2077v2h2v2h-1v1h-1v2h1v-1h1v-2h1v3h1v1h1v1h1v1h3v-1h2v-2h-1v-1h-2v-2h-1v1h-1v-1h-3v-1h1v-1h-1v-1h-1v-3h2v2h2v-1h-1v-2h-3v1h-1v2h-1zm7-3v2h2v-1h-1v-1h-1zm0%204v1h6v-1h-3v-1h-1v1h-2zm-9%2011v6h1v-1h1v-1h2v-4h-4zm9%203v4h6v-2h-2v-2h-4zm1-3v1h-2v1h3v-1h1v-1h1v-1h-1v1h-2z%22%20clip-rule%3D%22evenodd%22%2F%3E%3Cpath%20class%3D%22o%22%20fill-rule%3D%22evenodd%22%20d%3D%22M52%2073v1h11v-1h-5v-1h2v-1h-5v1h-2v1h-1zm0%208v2h-1v6h1v3h3v-1h1v-1h2v1h-1v1h4v-1h1v-2h-2v-1h1v-2h-2v1h-3v-1h-1v-1h-1v-1h-1v-3h-1zm6%209v-1h2c-.11%200%200%201%200%201h-2zm-2-9v1h1v-1h-1zm2%201v1h2v-1h-2z%22%20clip-rule%3D%22evenodd%22%2F%3E%3Cpath%20class%3D%22s%22%20fill-rule%3D%22evenodd%22%20d%3D%22M58%2072v1h2v-1h-2zm-3%202v2h1v1h-2v-2h-2v3h1v1h1v1h-1v1h7v-1h3v-1h-6v-1h2v-1h1v1h4v-2h-1v-1h-2v-1h-3v1h1v1h-2v-2h-2zm5%208v2h1v2h3v-3h-2v-1h-2z%22%20clip-rule%3D%22evenodd%22%2F%3E%3Cpath%20class%3D%22u%22%20fill-rule%3D%22evenodd%22%20d%3D%22M34%2086h-1v1h-1v4h1v1h1v-1h1v-1h2v-1h-1v-2h2v-1h-1v-1h-1v-3h2v2h2v-1h-1v-2h-3v1h-1v1h-1v3zm7-5v2h2v-1h-1v-1h-1zm0%204v1h6v-1h-3v-1h-1v1h-2zm2%203h-5v1h5v1h2v1h1v1h1v-1h1v-2h-1v-1h-2v1h-2v-1zm-7%205v1h-2v1h-2v1h6v-2h-1v-1h-1zm7%200v1h-1v2h6v-1h-2v-1h-2v-1h-1z%22%20clip-rule%3D%22evenodd%22%2F%3E%3Cpath%20class%3D%22o%22%20fill-rule%3D%22evenodd%22%20d%3D%22M36%2080v1h11v-1h-5v-1h2v-1h-5v1h-2v1h-1zm1%207h-1v2h1v1h1v2h-1v1h6v-1h-1v-2h1v-1h2v-1h2v-1h-3v1h-1v1h-6v-2zm-5%204v2h1v-2h-1zm15%200v2h1v-2h-1z%22%20clip-rule%3D%22evenodd%22%2F%3E%3Cpath%20class%3D%22s%22%20fill-rule%3D%22evenodd%22%20d%3D%22M42%2079v1h2v-1h-2zm-3%202v2h1v1h-2v-2h-2v3h1v1h1v1h-1v2h1v-1h6v-1h3v-1h-6v-1h2v-1h1v1h4v-2h-1v-1h-2v-1h-3v1h1v1h-2v-2h-2zm3%209v2h1v1h1v1h2v-1h1v-1h-1v-1h-1v-1h-3zm-7%200v1h-1v1h-1v1h1v1h2v-1h1v-1h1v-2h-3z%22%20clip-rule%3D%22evenodd%22%2F%3E%3Cpath%20class%3D%22o%22%20fill-rule%3D%22evenodd%22%20d%3D%22M21%2050v1h-1v1h9v-1h-3v-1h-5zm4%207h-2v1h-1v1h2v-1h1v1h-1v1h-1v1h-3v-1h-1v1h1v1h4v-1h4v-2h-1v-1h-2v-1zM5%2082v1H4v1h9v-1h-3v-1H5zm1%207v1H5v2H4v2h3v-1h2v1h3v-2h-1v-2h-1v-1H9v1H7v-1H6zm0%201h1v1H6v-1zm3%200h1v1H9v-1z%22%20clip-rule%3D%22evenodd%22%2F%3E%3Cpath%20class%3D%22s%22%20fill-rule%3D%22evenodd%22%20d%3D%22M10%2084v2H9v-2H7v1H6v1h1v1H5v2h7v-1H9v-1h1v-1h1v1h3v-1h-1v-1h-2v-1h-1zm-4%206v1h1v-1H6zm3%200v1h1v-1H9zm-7%201v2h2v-1h1v-1H2zm9%200v1h1v1h2v-2h-3zm-7-6v2h1v-2H4z%22%20clip-rule%3D%22evenodd%22%2F%3E%3Cpath%20class%3D%22u%22%20fill-rule%3D%22evenodd%22%20d%3D%22M3%2085v3h2v-1h2v-1H6v-1h1v-1H4v1H3zm2%202H4v-2h1v2zm4-3v2h1v1H9v1h4v-1h-2v-1h-1v-2H9zm-7%206v1h3v-1h1v-1H3v1H2zm5-1v1h2v-1H7zm3%200v1h1v1h3v-1h-1v-1h-3zm-8%206v1h5v-2H3v1H2zm7-1v2h5v-1h-1v-1H9z%22%20clip-rule%3D%22evenodd%22%2F%3E%3C%2Fsvg%3E");
+}
+.mario.fire {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2264%22%20height%3D%2296%22%3E%3Cstyle%3E.o%7Bfill%3A%23FFE3AB%7D.u%7Bfill%3A%23F83800%7D.s%7Bfill%3A%23FFA347%7D%3C%2Fstyle%3E%3Cpath%20class%3D%22o%22%20fill-rule%3D%22evenodd%22%20d%3D%22M5%2018v1H4v1h9v-1h-3v-1H5zm1%207v1H5v2H4v2h3v-1h2v1h3v-2h-1v-2h-1v-1H9v1H7v-1H6zm0%201h1v1H6v-1zm3%200h1v1H9v-1z%22%20clip-rule%3D%22evenodd%22%2F%3E%3Cpath%20class%3D%22s%22%20fill-rule%3D%22evenodd%22%20d%3D%22M10%2020v2H9v-2H7v1H6v1h1v1H5v2h7v-1H9v-1h1v-1h1v1h3v-1h-1v-1h-2v-1h-1zm-4%206v1h1v-1H6zm3%200v1h1v-1H9zm-7%201v2h2v-1h1v-1H2zm9%200v1h1v1h2v-2h-3zm-7-6v2h1v-2H4z%22%20clip-rule%3D%22evenodd%22%2F%3E%3Cpath%20class%3D%22u%22%20fill-rule%3D%22evenodd%22%20d%3D%22M3%2021v3h2v-1h2v-1H6v-1h1v-1H4v1H3zm2%202H4v-2h1v2zm4-3v2h1v1H9v1h4v-1h-2v-1h-1v-2H9zm-7%206v1h3v-1h1v-1H3v1H2zm5-1v1h2v-1H7zm3%200v1h1v1h3v-1h-1v-1h-3zm-8%206v1h5v-2H3v1H2zm7-1v2h5v-1h-1v-1H9zM19%2021v3h2v-1h2v-1h-1v-1h1v-1h-3v1h-1zm2%202h-1v-2h1v2zm4-3v2h1v1h-1v1h4v-1h-2v-1h-1v-2h-1zm-7%205v1h1v1h-1v1h1v-1h2v-1h1v-1h-4zm7%200v1h2v1h1v3h2v-4h-1v1h-1v-2h-3zm-7%204v2h1v1h3v-1h-1v-1h-2v-1h-1z%22%20clip-rule%3D%22evenodd%22%2F%3E%3Cpath%20class%3D%22o%22%20fill-rule%3D%22evenodd%22%20d%3D%22M21%2018v1h-1v1h9v-1h-3v-1h-5zm1%207v1h-1v1h-2v1h-1v1h1v1h3v-1h3v1h3v-3h-1v-1h-2v-1h-3zm1%201h1v1h-1v-1z%22%20clip-rule%3D%22evenodd%22%2F%3E%3Cpath%20class%3D%22s%22%20fill-rule%3D%22evenodd%22%20d%3D%22M26%2020v2h-1v-2h-2v1h-1v1h1v1h-2v-2h-1v2h1v2h7v-1h-3v-1h1v-1h1v1h3v-1h-1v-1h-2v-1h-1zm-10%205v3h2v-1h1v-1h-1v-1h-2zm7%201v1h1v-1h-1zm5-1v2h1v-1h1v1h1v-2h-3z%22%20clip-rule%3D%22evenodd%22%2F%3E%3Cpath%20class%3D%22u%22%20fill-rule%3D%22evenodd%22%20d%3D%22M19%2053v3h2v-1h2v-1h-1v-1h1v-1h-3v1h-1zm2%202h-1v-2h1v2zm4-3v2h1v1h-1v1h4v-1h-2v-1h-1v-2h-1zM19%2057v3h1v1h1v-2h1v-1h1v-1h-4zm6%200v1h2v-1h-2zm-4%205v2h4v-1h3v-1h-1v-1h-3v1h-3z%22%20clip-rule%3D%22evenodd%22%2F%3E%3Cpath%20class%3D%22s%22%20fill-rule%3D%22evenodd%22%20d%3D%22M26%2052v2h-1v-2h-2v1h-1v1h1v1h-2v-2h-1v2h1v2h7v-1h-3v-1h1v-1h1v1h3v-1h-1v-1h-2v-1h-1zm-5%207v2h2v-1h1v-1h1v-1h-1v1h-3zm6-1v1h1v-1h-1z%22%20clip-rule%3D%22evenodd%22%2F%3E%3Cpath%20class%3D%22u%22%20fill-rule%3D%22evenodd%22%20d%3D%22M19%2086v3h2v-1h2v-1h-1v-1h1v-1h-3v1h-1zm2%202h-1v-2h1v2zm4-3v2h1v1h-1v1h4v-1h-2v-1h-1v-2h-1zm-5%205v1h1v1h2v1h3v-3h-1v1h-1v-1h-4zm2%204v2h4v-1h-1v-1h-3zm-5-1v2h1v-1h1v-2h-1v1h-1z%22%20clip-rule%3D%22evenodd%22%2F%3E%3Cpath%20class%3D%22s%22%20fill-rule%3D%22evenodd%22%20d%3D%22M26%2085v2h-1v-2h-2v1h-1v1h1v1h-2v-2h-1v2h1v2h6v1h-1v2h2v-1h1v-1h-1v-2h-3v-1h1v-1h1v1h3v-1h-1v-1h-2v-1h-1zm-8%206v1h2v-2h-1v1h-1z%22%20clip-rule%3D%22evenodd%22%2F%3E%3Cpath%20class%3D%22o%22%20fill-rule%3D%22evenodd%22%20d%3D%22M21%2083v1h-1v1h9v-1h-3v-1h-5zm-2%209v2h3v-1h1v1h3v-1h-3v-1h-2v-1h-1v1h-1zm5-2v1h1v-1h-1z%22%20clip-rule%3D%22evenodd%22%2F%3E%3Cpath%20class%3D%22s%22%20fill-rule%3D%22evenodd%22%20d%3D%22M11%2052v2h-1v-2H8v1H7v1h1v1H6v-2H5v2h1v2h7v-1h-3v-1h1v-1h1v1h3v-1h-1v-1h-2v-1h-1zM0%2057v2h1v1h1v-1h1v-1H2v-1H0zm9%201v1h1v-1H9zm3%200v1h1v-1h-1zm1-9v2h1v1h2v-3h-3z%22%20clip-rule%3D%22evenodd%22%2F%3E%3Cpath%20class%3D%22u%22%20fill-rule%3D%22evenodd%22%20d%3D%22M4%2053v3H1v1h1v1h5v1h1v-1h1v-1H6v-2h2v-1H7v-1h1v-1H5v1H4zm2%202H5v-2h1v2zm4-3v2h1v1h-1v1h3v1h1v-1h1v2h-1v3h2v-5h-1v-1h1v-3h-3v1h1v1h1v1h-3v-1h-1v-2h-1zm0%205v1h2v-1h-2zm-9%204v2h1v-1h2v-1h1v-1H4v-1H3v1H2v1H1z%22%20clip-rule%3D%22evenodd%22%2F%3E%3Cpath%20class%3D%22o%22%20fill-rule%3D%22evenodd%22%20d%3D%22M6%2050v1H5v1h9v-1h-3v-1H6zm-2%208v2h1v1H4v2h4v-1h3v-1h3v-3h-1v-1h-1v1h-2v-1H9v1H8v1H7v-1H4zm9%201h-1v-1h1v1zm-3%200H9v-1h1v1z%22%20clip-rule%3D%22evenodd%22%2F%3E%3Cpath%20class%3D%22u%22%20fill-rule%3D%22evenodd%22%20d%3D%22M33%2012v2h2v1h2v-1h-1v-1h-1v-3h2v2h2v-1h-1V9h-3v1h-1v2h-1zm7-3v2h2v-1h-1V9h-1zm0%204v1h6v-1h-3v-1h-1v1h-2zm-4%203v1h-1v1h-1v1h-1v1h-1v2h4v-3h1v-3h-1zm2%200v4h4v-4h-4zm5%200v3h1v3h4v-2h-1v-1h-1v-1h-1v-1h-1v-1h-1zm-9%2012v2h-2v2h6v-4h-4zm8%200v4h6v-2h-2v-2h-4z%22%20clip-rule%3D%22evenodd%22%2F%3E%3Cpath%20class%3D%22o%22%20fill-rule%3D%22evenodd%22%20d%3D%22M35%208v1h11V8h-5V7h2V6h-5v1h-2v1h-1zm2%208v3h-1v5h-1v1h-1v1h-1v2h5v-1h1v-1h2v1h1v1h5v-2h-1v-1h-1v-1h-1v-5h-1v-3h-1v4h-4v-4h-1zm0%205h1v1h-1v-1zm5%200h1v1h-1v-1z%22%20clip-rule%3D%22evenodd%22%2F%3E%3Cpath%20class%3D%22s%22%20fill-rule%3D%22evenodd%22%20d%3D%22M41%207v1h2V7h-2zm-3%202v2h1v1h-2v-2h-2v3h1v1h1v1h-1v1h7v-1h3v-1h-6v-1h2v-1h1v1h4v-2h-1v-1h-2V9h-3v1h1v1h-2V9h-2zm-6%2013v2h1v1h2v-1h1v-2h-4zm12%200v2h1v1h2v-1h1v-2h-4zm-7-1v1h1v-1h-1zm5%200v1h1v-1h-1zM38%2043v2h1v1h-2v-2h-2v3h1v1h1v1h-1v1h7v-1h3v-1h-6v-1h2v-1h1v1h4v-2h-1v-1h-2v-1h-3v1h1v1h-2v-2h-2zm-5%2013v1h2v-1h1v-1h1v-2h-1v-1h-2v1h-1v1h-1v2h1zm1%200h-1v-1h1v1zm7-15v1h2v-1h3v-1h1v1h1v-2h-1v-1h-3v1h-1v2h-2zm4-1v-1h1v1h-1zm-4%2013v1h1v-1h-1z%22%20clip-rule%3D%22evenodd%22%2F%3E%3Cpath%20class%3D%22u%22%20fill-rule%3D%22evenodd%22%20d%3D%22M33%2046v2h2v1h2v-1h-1v-1h-1v-3h2v2h2v-1h-1v-2h-3v1h-1v2h-1zm7-3v2h2v-1h-1v-1h-1zm0%204v1h6v1h-3v2h-1v-1h-1v1h1v1h1v1h2v-2h1v-1h1v-3h1v-6h-1v-1h-1v-1h-1v1h1v1h-3v1h3v1h-2v1h2v1h1v2h-4v-1h-1v1h-2zm-7%203v1h-1v3h1v-1h1v-1h2v1h1v1h1v-1h1v-1h1v-1h-1v-1h-6zm0%205v1h1v-1h-1zm-1%203v6h1v-1h1v-1h1v-4h1v1h2v1h2v-1h-2v-1h-2v-1h-1v1h-3zm12-1v4h4v-6h-1v1h-1v1h-2z%22%20clip-rule%3D%22evenodd%22%2F%3E%3Cpath%20class%3D%22o%22%20fill-rule%3D%22evenodd%22%20d%3D%22M35%2042v1h11v-1h-5v-1h2v-1h-5v1h-2v1h-1zm4%208v1h1v1h-1v1h-1v1h-1v1h-1v1h-1v1h1v1h2v1h2v1h2v1h2v-4h1v-4h-2v-1h-1v-1h1v-1h-1v1h-1v-1h-2zm2%203h1v1h-1v-1zm-6%205v4h3v-1h1v-1h-1v-1h-2v-1h-1zM51%209v1h11V9h-5V8h2V7h-5v1h-2v1h-1zm9%208h-1v2h1v1h1v-1h-1v-2zm-9-1v1h1v-1h-1zm3%201v1h1v1h-1v1h-1v1h-1v1h1v1h-1v1h1v1h-2v2h1v1h1v1h1v-1h2v-1h3v-2h2v-4h-2v-1h-1v-2h-1v-1h-3zm-1%208h1v1h-1v-1zm1%201h2v1h-2v-1zm3-6h1v1h-1v-1z%22%20clip-rule%3D%22evenodd%22%2F%3E%3Cpath%20class%3D%22s%22%20fill-rule%3D%22evenodd%22%20d%3D%22M57%208v1h2V8h-2zm-9%2014v2h1v1h3v-2h1v-1h-5zm9-2v1h1v-1h-1zm3%200v1h1v-1h-1zm-6-10v2h1v1h-2v-2h-2v3h1v1h1v1h-1v1h7v-1h3v1h-1v2h1v1h1v-1h1v-2h-1v-1h-1v-1h-6v-1h2v-1h1v1h4v-2h-1v-1h-2v-1h-3v1h1v1h-2v-2h-2z%22%20clip-rule%3D%22evenodd%22%2F%3E%3Cpath%20class%3D%22u%22%20fill-rule%3D%22evenodd%22%20d%3D%22M49%2013v2h2v1h2v-1h-1v-1h-1v-3h2v2h2v-1h-1v-2h-3v1h-1v2h-1zm7-3v2h2v-1h-1v-1h-1zm0%204v1h6v-1h-3v-1h-1v1h-2zm-8%206v2h4v-1h1v-1h1v-1h1v-1h-1v-1h-3v1h-1v1h-1v1h-1zm0%206v3h1v3h4v-1h-1v-2h1v-1h-1v-1h-1v-1h-3zm5-2h-1v1h1v1h1v1h2v-1h-2v-1h-1v-1zm4-7v1h1v2h1v1h1v-2h-1v-2h-2zm2%208v4h5v-6h-1v1h-1v1h-3zm2-6v2h1v1h1v-1h1v-2h-1v1h-1v-1h-1z%22%20clip-rule%3D%22evenodd%22%2F%3E%3Cpath%20class%3D%22o%22%20fill-rule%3D%22evenodd%22%20d%3D%22M52%2041v1h11v-1h-5v-1h2v-1h-5v1h-2v1h-1zm1%209v-2h-1v2h-1v3h-1v3h1v1h1v1h1v1h1v1h3v-1h-2v-2h2v-1h-2v-1h-1v-1h-1v-1h-1v-3h1zm7%201h-1v-1h-1v-1h-3v1h1v2h4v3h-1v2h2v-1h1v-3h-1v-1h-1v-1z%22%20clip-rule%3D%22evenodd%22%2F%3E%3Cpath%20class%3D%22u%22%20fill-rule%3D%22evenodd%22%20d%3D%22M50%2045v2h2v1h2v-1h-1v-1h-1v-3h2v2h2v-1h-1v-2h-3v1h-1v2h-1zm7-3v2h2v-1h-1v-1h-1zm0%204v1h6v-1h-3v-1h-1v1h-2zm-4%203v1h-1v3h1v1h1v1h1v1h1v-3h1v-1h-1v-2h-1v-1h-2zm8%203v-2h-1v-1h-2v1h1v1h1v1h-1v1h1v-1h1zm-4%204v1h-2v2h2v1h-3v-1h-1v2h-1v2h2v1h5v-2h-2v-2h1v1h2v-2h-1v-1h1v-1h-1v-1h-2z%22%20clip-rule%3D%22evenodd%22%2F%3E%3Cpath%20class%3D%22s%22%20fill-rule%3D%22evenodd%22%20d%3D%22M58%2040v1h2v-1h-2zm-3%202v2h1v1h-2v-2h-2v3h1v1h1v1h-1v1h7v-1h3v-1h-6v-1h2v-1h1v1h4v-2h-1v-1h-2v-1h-3v1h1v1h-2v-2h-2zm2%2010v1h-1v3h3v-1h1v-2h-1v-1h-2z%22%20clip-rule%3D%22evenodd%22%2F%3E%3Cpath%20class%3D%22u%22%20fill-rule%3D%22evenodd%22%20d%3D%22M50%2077v2h2v2h-1v1h-1v2h1v-1h1v-2h1v3h1v1h1v1h1v1h3v-1h2v-2h-1v-1h-2v-2h-1v1h-1v-1h-3v-1h1v-1h-1v-1h-1v-3h2v2h2v-1h-1v-2h-3v1h-1v2h-1zm7-3v2h2v-1h-1v-1h-1zm0%204v1h6v-1h-3v-1h-1v1h-2zm-9%2011v6h1v-1h1v-1h2v-4h-4zm9%203v4h6v-2h-2v-2h-4zm1-3v1h-2v1h3v-1h1v-1h1v-1h-1v1h-2z%22%20clip-rule%3D%22evenodd%22%2F%3E%3Cpath%20class%3D%22o%22%20fill-rule%3D%22evenodd%22%20d%3D%22M52%2073v1h11v-1h-5v-1h2v-1h-5v1h-2v1h-1zm0%208v2h-1v6h1v3h3v-1h1v-1h2v1h-1v1h4v-1h1v-2h-2v-1h1v-2h-2v1h-3v-1h-1v-1h-1v-1h-1v-3h-1zm6%209v-1h2c-.11%200%200%201%200%201h-2zm-2-9v1h1v-1h-1zm2%201v1h2v-1h-2z%22%20clip-rule%3D%22evenodd%22%2F%3E%3Cpath%20class%3D%22s%22%20fill-rule%3D%22evenodd%22%20d%3D%22M58%2072v1h2v-1h-2zm-3%202v2h1v1h-2v-2h-2v3h1v1h1v1h-1v1h7v-1h3v-1h-6v-1h2v-1h1v1h4v-2h-1v-1h-2v-1h-3v1h1v1h-2v-2h-2zm5%208v2h1v2h3v-3h-2v-1h-2z%22%20clip-rule%3D%22evenodd%22%2F%3E%3Cpath%20class%3D%22u%22%20fill-rule%3D%22evenodd%22%20d%3D%22M34%2086h-1v1h-1v4h1v1h1v-1h1v-1h2v-1h-1v-2h2v-1h-1v-1h-1v-3h2v2h2v-1h-1v-2h-3v1h-1v1h-1v3zm7-5v2h2v-1h-1v-1h-1zm0%204v1h6v-1h-3v-1h-1v1h-2zm2%203h-5v1h5v1h2v1h1v1h1v-1h1v-2h-1v-1h-2v1h-2v-1zm-7%205v1h-2v1h-2v1h6v-2h-1v-1h-1zm7%200v1h-1v2h6v-1h-2v-1h-2v-1h-1z%22%20clip-rule%3D%22evenodd%22%2F%3E%3Cpath%20class%3D%22o%22%20fill-rule%3D%22evenodd%22%20d%3D%22M36%2080v1h11v-1h-5v-1h2v-1h-5v1h-2v1h-1zm1%207h-1v2h1v1h1v2h-1v1h6v-1h-1v-2h1v-1h2v-1h2v-1h-3v1h-1v1h-6v-2zm-5%204v2h1v-2h-1zm15%200v2h1v-2h-1z%22%20clip-rule%3D%22evenodd%22%2F%3E%3Cpath%20class%3D%22s%22%20fill-rule%3D%22evenodd%22%20d%3D%22M42%2079v1h2v-1h-2zm-3%202v2h1v1h-2v-2h-2v3h1v1h1v1h-1v2h1v-1h6v-1h3v-1h-6v-1h2v-1h1v1h4v-2h-1v-1h-2v-1h-3v1h1v1h-2v-2h-2zm3%209v2h1v1h1v1h2v-1h1v-1h-1v-1h-1v-1h-3zm-7%200v1h-1v1h-1v1h1v1h2v-1h1v-1h1v-2h-3z%22%20clip-rule%3D%22evenodd%22%2F%3E%3Cpath%20class%3D%22o%22%20fill-rule%3D%22evenodd%22%20d%3D%22M21%2050v1h-1v1h9v-1h-3v-1h-5zm4%207h-2v1h-1v1h2v-1h1v1h-1v1h-1v1h-3v-1h-1v1h1v1h4v-1h4v-2h-1v-1h-2v-1zM5%2082v1H4v1h9v-1h-3v-1H5zm1%207v1H5v2H4v2h3v-1h2v1h3v-2h-1v-2h-1v-1H9v1H7v-1H6zm0%201h1v1H6v-1zm3%200h1v1H9v-1z%22%20clip-rule%3D%22evenodd%22%2F%3E%3Cpath%20class%3D%22s%22%20fill-rule%3D%22evenodd%22%20d%3D%22M10%2084v2H9v-2H7v1H6v1h1v1H5v2h7v-1H9v-1h1v-1h1v1h3v-1h-1v-1h-2v-1h-1zm-4%206v1h1v-1H6zm3%200v1h1v-1H9zm-7%201v2h2v-1h1v-1H2zm9%200v1h1v1h2v-2h-3zm-7-6v2h1v-2H4z%22%20clip-rule%3D%22evenodd%22%2F%3E%3Cpath%20class%3D%22u%22%20fill-rule%3D%22evenodd%22%20d%3D%22M3%2085v3h2v-1h2v-1H6v-1h1v-1H4v1H3zm2%202H4v-2h1v2zm4-3v2h1v1H9v1h4v-1h-2v-1h-1v-2H9zm-7%206v1h3v-1h1v-1H3v1H2zm5-1v1h2v-1H7zm3%200v1h1v1h3v-1h-1v-1h-3zm-8%206v1h5v-2H3v1H2zm7-1v2h5v-1h-1v-1H9z%22%20clip-rule%3D%22evenodd%22%2F%3E%3C%2Fsvg%3E");
+}
+.mario.down {
+  background-position: -0 -64px;
+}
+.mario.run {
+  -webkit-animation-name: mario-mini-run;
+          animation-name: mario-mini-run;
+}
+.mario.jump {
+  -webkit-animation-name: mario-mini-jump;
+          animation-name: mario-mini-jump;
+}
+.mario.big {
+  background-position: -32px 0;
+}
+.mario.big.down {
+  background-position: -32px -64px;
+}
+.mario.big.run {
+  -webkit-animation-name: mario-big-run;
+          animation-name: mario-big-run;
+}
+.mario.big.jump {
+  -webkit-animation-name: mario-big-jump;
+          animation-name: mario-big-jump;
+}
+.mario.fire {
+  background-position: -32px 0;
+}
+.mario.fire.down {
+  background-position: -32px -64px;
+}
+.mario.fire.run {
+  -webkit-animation-name: mario-fire-run;
+          animation-name: mario-fire-run;
+}
+.mario.fire.jump {
+  -webkit-animation-name: mario-fire-jump;
+          animation-name: mario-fire-jump;
+}

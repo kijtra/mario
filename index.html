@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<title>Mario</title>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<link rel="stylesheet" href="./mario.css">
+<style>
+html, body {
+  height: 100%
+}
+</style>
+</head>
+<body>
+  <div class="container h-100">
+    <div class="row h-100 align-items-center justify-content-center">
+      <div class="col">
+        <div class="row justify-content-center">
+
+          <div class="col-auto">
+            <div class="card">
+              <div class="card-body">
+                <div class="mario" id="mario"></div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12 text-center mt-2">
+              <code id="code">&lt;div class="mario"&gt;&lt;/div&gt;</code>
+            </div>
+
+          <div class="col-12 text-center mt-5">
+            <div class="btn-group" role="group">
+                <button type="button" class="btn btn-sm btn-outline-secondary" data-toggle="button" value="down">DOWN</button>
+                <button type="button" class="btn btn-sm btn-outline-secondary" data-toggle="button" value="run">RUN</button>
+              <button type="button" class="btn btn-sm btn-outline-secondary" data-toggle="button" value="jump">JUMP</button>
+            </div>
+          </div>
+
+          <div class="col-12 text-center mt-3">
+            <div class="btn-group" role="group">
+              <button type="button" class="btn btn-sm btn-outline-info" data-toggle="button" value="left">LEFT</button>
+              <button type="button" class="btn btn-sm btn-outline-info" data-toggle="button" value="big">BIG</button>
+              <button type="button" class="btn btn-sm btn-outline-info" data-toggle="button" value="luigi">LUIGI</button>
+              <button type="button" class="btn btn-sm btn-outline-info" data-toggle="button" value="fire">FIRE</button>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+<script>
+var el = document.getElementById('mario');
+var code = document.getElementById('code');
+
+document.querySelectorAll('.btn').forEach(function(btn) {
+  btn.addEventListener('click', function (ev) {
+    btn.classList.toggle('active');
+    el.classList.toggle(btn.value);
+    code.innerText = '<div class="' + [].slice.call(el.classList).join(' ') + '"></div>';
+  });
+});
+</script>
+</body>
+</html>
